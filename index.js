@@ -1,4 +1,4 @@
-const inquirer = require('inquirer');
+const inquirer = require('inquirer').default;
 const { questions } = require('./questions');
 const { handleAnswers } = require('./handleAnswers');
 
